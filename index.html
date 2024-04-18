@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <title>Legal and illegal variables</title>
+</head>
+
+<body>
+    
+    <h1>Below paragraph is written using JS variables and then Executing it:</h1>
+    <p id="demo"></p>
+    <h2>5 legall </h2>
+    <ol>
+        <li> var firstName = "sami";</li>
+        <li> var lastName = "jutt";</li>
+        <li> var my$birthday = "1st june"; </li>
+        <li> var _myAge = 25; </li>
+        <li> var allLegalWords = "$_1 and any text"</li>
+    </ol>
+    <h2>5 illegall </h2>
+    <ol>
+        <li> var 1firstName = "Using number in begining of the variable";</li>
+        <li> var last Name = "Using space in begining of the variable";</li>
+        <li> var .split() = "Using Javascript formola or method name as a var"; </li>
+        <li> var myAge"%" = Using % sign the variable ; </li>
+        <li> var 1this varisExampleof % = "allIllegalWords"</li>
+    </ol>
+
+    <h1>
+        Rules for naming variables
+    </h1>
+    <h4>A variable can only contain <br> an " <b>underscore "_"</b>" <br> a <b>N umber"1"(but not at the starting
+            point)</b>" <br> a
+        <b>dollar sign "$"</b>" <br> and " <b> text</b>"
+    </h4>
+
+    <h1>Note</h1>
+    <ol>
+        <li>Variable names are case-sensitive</li>
+        <li>Variable names should not be "JS Keyword".</li>
+    </ol>
+
+        <h1>
+            Variables For Number
+        </h1>
+
+    <script>
+        var firstNAme = "jhon ";
+        var lastName = "doe "
+        var birthDay = "1st may";
+        document.getElementById("demo").innerHTML =
+            firstNAme + lastName + "and my birthday is" + " " + birthDay;
+    </script>
+</body>
+
+</html
